@@ -30,17 +30,16 @@ namespace NeedleManual
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.cmb_Nozzle = new System.Windows.Forms.ComboBox();
             this.txt_Distance = new System.Windows.Forms.TextBox();
             this.txt_Comment = new System.Windows.Forms.TextBox();
             this.btn_add = new System.Windows.Forms.Button();
             this.dgv_ManualList = new System.Windows.Forms.DataGridView();
-            this.btn_Run = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.col_Nozzle = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.col_Distance = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.col_Comment = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btn_Run = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btn_Delete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ManualList)).BeginInit();
             this.SuspendLayout();
@@ -63,6 +62,7 @@ namespace NeedleManual
             this.txt_Distance.Name = "txt_Distance";
             this.txt_Distance.Size = new System.Drawing.Size(172, 40);
             this.txt_Distance.TabIndex = 1;
+            this.txt_Distance.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Distance_KeyPress);
             // 
             // txt_Comment
             // 
@@ -88,38 +88,12 @@ namespace NeedleManual
             this.col_Nozzle,
             this.col_Distance,
             this.col_Comment});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_ManualList.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_ManualList.Location = new System.Drawing.Point(12, 58);
             this.dgv_ManualList.Name = "dgv_ManualList";
             this.dgv_ManualList.RowHeadersWidth = 51;
             this.dgv_ManualList.RowTemplate.Height = 27;
             this.dgv_ManualList.Size = new System.Drawing.Size(592, 337);
             this.dgv_ManualList.TabIndex = 4;
-            // 
-            // btn_Run
-            // 
-            this.btn_Run.Location = new System.Drawing.Point(12, 402);
-            this.btn_Run.Name = "btn_Run";
-            this.btn_Run.Size = new System.Drawing.Size(200, 54);
-            this.btn_Run.TabIndex = 5;
-            this.btn_Run.Text = "移動";
-            this.btn_Run.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(218, 402);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 54);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "返回上一動";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // col_Nozzle
             // 
@@ -141,6 +115,24 @@ namespace NeedleManual
             this.col_Comment.MinimumWidth = 6;
             this.col_Comment.Name = "col_Comment";
             this.col_Comment.Width = 250;
+            // 
+            // btn_Run
+            // 
+            this.btn_Run.Location = new System.Drawing.Point(12, 402);
+            this.btn_Run.Name = "btn_Run";
+            this.btn_Run.Size = new System.Drawing.Size(200, 54);
+            this.btn_Run.TabIndex = 5;
+            this.btn_Run.Text = "移動";
+            this.btn_Run.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(218, 402);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 54);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "返回上一動";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // btn_Delete
             // 
