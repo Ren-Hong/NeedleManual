@@ -8,3 +8,13 @@ C:\Users\r417t\Desktop\CCP_Contact_Probes\NeedleManual\NeedleManual\obj\Debug\Ne
 C:\Users\r417t\Desktop\CCP_Contact_Probes\NeedleManual\NeedleManual\obj\Debug\NeedleManual.csproj.CoreCompileInputs.cache
 C:\Users\r417t\Desktop\CCP_Contact_Probes\NeedleManual\NeedleManual\obj\Debug\NeedleManual.exe
 C:\Users\r417t\Desktop\CCP_Contact_Probes\NeedleManual\NeedleManual\obj\Debug\NeedleManual.pdb
+C:\Users\r417t\Desktop\NeedleManual\NeedleManual\obj\Debug\NeedleManual.csproj.AssemblyReference.cache
+C:\Users\r417t\Desktop\NeedleManual\NeedleManual\obj\Debug\NeedleManual.Frm_Manual.resources
+C:\Users\r417t\Desktop\NeedleManual\NeedleManual\obj\Debug\NeedleManual.Properties.Resources.resources
+C:\Users\r417t\Desktop\NeedleManual\NeedleManual\obj\Debug\NeedleManual.csproj.GenerateResource.cache
+C:\Users\r417t\Desktop\NeedleManual\NeedleManual\obj\Debug\NeedleManual.csproj.CoreCompileInputs.cache
+C:\Users\r417t\Desktop\NeedleManual\NeedleManual\obj\Debug\NeedleManual.exe
+C:\Users\r417t\Desktop\NeedleManual\NeedleManual\obj\Debug\NeedleManual.pdb
+C:\Users\r417t\Desktop\NeedleManual\NeedleManual\bin\Debug\NeedleManual.exe.config
+C:\Users\r417t\Desktop\NeedleManual\NeedleManual\bin\Debug\NeedleManual.exe
+C:\Users\r417t\Desktop\NeedleManual\NeedleManual\bin\Debug\NeedleManual.pdb
